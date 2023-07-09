@@ -16,7 +16,7 @@ plugins:
 
 functions:
   getAllPost:
-    handler: api.getAllPost
+    handler: api.getAllPosts
     name: get-all-posts
     memorySize: 128 #mb
     timeout: 5 #seconds
